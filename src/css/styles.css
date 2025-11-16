@@ -10,7 +10,36 @@
 @import url('./container.css');
 @import url('./animations.css');
 
-/* Sections style */
+/* Sections styles */
 @import url('./header.css');
 @import url('./badges.css');
 @import url('./back-link.css');
+
+/* Form page styles */
+@import url('./form.css');
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  margin-bottom: 36px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 200px;
+
+  transition: transform 250ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.back-link {
+  margin-bottom: 24px;
+}

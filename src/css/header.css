@@ -3,7 +3,7 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-logo {
   display: inline-flex;
@@ -25,7 +25,7 @@
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: #1a25f5;
 }
 .nav-link::after {
   content: '';

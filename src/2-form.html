@@ -7,15 +7,27 @@
     <title>Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="form-page-body">
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
 
-        <h1 class="main-title">Form</h1>
+        <div class="form-container">
+          <form class="feedback-form" autocomplete="off">
+            <label>
+              Email
+              <input type="email" name="email" autofocus />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="8"></textarea>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </div>
     </main>
 
-    <script type="modelu" src="./js/2-form.js"></script>
+    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
