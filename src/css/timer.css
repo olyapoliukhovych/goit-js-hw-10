@@ -1,0 +1,90 @@
+.flatpickr-calendar {
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: -1px -1px 46px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flatpickr-day {
+  border-radius: 4px;
+}
+
+.flatpickr-day:hover {
+  background-color: #90e0ef;
+}
+
+#datetime-picker {
+  padding: 8px 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 150px;
+  margin-right: 12px;
+}
+
+.start-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4093f8;
+  color: #fff;
+  font-size: 16px;
+}
+
+.start-button:disabled {
+  background-color: #777;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  cursor: not-allowed !important;
+}
+
+.start-button:hover:not(:disabled) {
+  background-color: #358bf5;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #caf0f8;
+  padding: 10px 16px;
+  border-radius: 4px;
+  min-width: 60px;
+}
+
+.timer .value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  background-color: #fff8f8;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.reset-button:hover {
+  border: 2px solid #d32f2f;
+  color: #000;
+}
