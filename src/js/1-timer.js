@@ -122,7 +122,7 @@ resetButton.addEventListener('mouseenter', () => {
 
   iziToast.info({
     title: 'Congrats!',
-    message: 'You have found a secret button!',
+    message: 'You have found the secret button!',
     position: 'topRight',
     timeout: 7000,
     closeOnClick: true,
